@@ -17,7 +17,7 @@ public class PageController {
             "/mypage",
             "/mypage/edit",
             "/favorites"}, produces = MediaType.TEXT_HTML_VALUE)
-    public String index() {
+    public String /**/index() {
         return "index";
     }
 }
